@@ -28,4 +28,4 @@ jobs:
         python -m playwright install  
 
     - name: Run tests
-      run: pytest --headless  
+      run: pytest  
